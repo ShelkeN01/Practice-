@@ -1,5 +1,15 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+#files
+src/setupTests.js 
+src/reportWebVitals.js
+src/logo.svg
+src/App.test.js
+public/logo192.png
+public/favicon.ico
+public/logo512.png
+
+
 # dependencies
 /node_modules
 /.pnp
