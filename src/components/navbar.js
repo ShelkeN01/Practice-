@@ -18,11 +18,11 @@ export default function Navbar() {
     return (
         <div className="container-fluid d-flex justify-content-between p-2 mb-2 bg-dark">
 
-            <ul className="d-flex text-light mx-2">
+            {/* <ul className="d-flex text-light mx-2">
 
                 <Link className="text-decoration-none text-light mx-2" to="/register">Sign Up</Link>
 
-            </ul>
+            </ul> */}
 
             <div className="">
                 {loggedIn ? <button className="btn btn-primary" onClick={handleLogout} >Logout</button> : ""}

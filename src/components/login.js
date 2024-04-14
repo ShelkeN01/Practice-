@@ -23,8 +23,8 @@ export default function Login(){
     }
 
     return(
-        <div className="container mt-5 w-25 border border-2 border-primary p-4">
-            <h1 className="mb-3">Login form</h1>
+        <div className="container mt-5 p-4">
+            
             <form className="row g-3 mb-3" onSubmit={handleSubmit}>
                 <input className="col-8 form-control" type="text" placeholder="username" value={username} onChange={(e) => setUsername(e.target.value)} required/>
                 <input className="col-8 form-control" type="password" placeholder="password" value={password} onChange={(e) => setPassword(e.target.value)}/>

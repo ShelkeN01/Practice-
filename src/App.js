@@ -1,5 +1,6 @@
 import Navbar from "./components/navbar";
-import Login from "./components/login";
+// import Login from "./components/login";
+import {Mainpage} from './components/mainpage'
 import Register from "./components/register";
 import Home from "./components/home"
 import { Routes, Route } from "react-router-dom"
@@ -27,7 +28,7 @@ function App() {
       <Mycontext.Provider value={{RegistrationData, loggedIn, setLoggedIn, setRegistrationData}}>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Login />}></Route>
+          <Route path="/" element={<Mainpage />}></Route>
           <Route path="/register" element={<Register />}></Route>
           <Route path="/home" element={<Home />}></Route>
         </Routes>
