@@ -1,7 +1,7 @@
 - Created a react app for Form validation and authentication.
 - Used Context API for managing state 
 - Created Registration, Login, Navbar, and Home components.
-- Using react-router-dom to link pages and routing.
+- Used react-router-dom to link pages and routing.
 - Registered  data will be updated in the state.
 - Validation will be checked in the registration page.
 - In the login component if the username and password matches it will navigate to home page.
